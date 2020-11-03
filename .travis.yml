@@ -19,6 +19,7 @@ script:
 - ls -l ../
 - mkdir   ../openfalcon 
 - cd ../
+- ls -l 
 - mv /home/travis/gopath/src/github.com/mohneesh-9797/* /home/travis/gopath/src/github.com/openfalcon/
 - cd openfalcon
 - ls 
