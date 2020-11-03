@@ -16,3 +16,9 @@ services:
 script: 
 - ls 
 - pwd
+- ls -l ../
+- mkdir   ../openfalcon 
+- cd ../
+- mv /home/travis/gopath/src/github.com/mohneesh-9797/* /home/travis/gopath/src/github.com/openfalcon/
+- cd openfalcon
+- ls 
