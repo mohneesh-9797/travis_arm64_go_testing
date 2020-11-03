@@ -13,4 +13,6 @@ env:
 services:
   - docker
   
-script: ls 
+script: 
+- ls 
+- pwd
